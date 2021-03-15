@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+}
+.container > div {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d3d3;
+  border: 1px solid black;
+  font-size: 2em;
+}
+.vic {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  color: green;
+}
