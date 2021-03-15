@@ -73,7 +73,7 @@ export default class App extends Component {
   render() {
     const { victorymessage } = this.state;
     return (
-      <>
+      <section>
         <div className="container">
           <div className="box" onClick={() => this.handleClick(0)}>
             {this.state.grid[0]}
@@ -101,7 +101,7 @@ export default class App extends Component {
         </div>
 
         <div className="vic">{victorymessage}</div>
-      </>
+      </section>
     );
   }
 }
